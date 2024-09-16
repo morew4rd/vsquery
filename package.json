@@ -1,0 +1,28 @@
+{
+  "name": "vsquery",
+  "publisher": "moreward",
+  "displayName": "vsquery",
+  "description": "Execute JS code in the extension host",
+  "version": "0.0.1",
+  "categories": [
+    "Other"
+  ],
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "activationEvents": [
+  ],
+  "main": "./extension.js",
+  "homepage": "https://github.com/morew4rd/vsquery",
+  "repository": {},
+  "contributes": {
+    "commands": [
+      {
+        "command": "vsquery.executeSnippet",
+        "title": "vsquery: Execute JavaScript Snippet"
+      }
+    ],
+    "keybindings": [
+    ]
+  }
+}
